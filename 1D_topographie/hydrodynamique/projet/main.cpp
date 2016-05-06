@@ -239,11 +239,11 @@ int main(){
             }
             if (i==0){
                 Ucopie[i][0]=U[N-1][0];
-                Ucopie[i][1]=U[N-1][1];
+                Ucopie[i][1]=-U[1][1];
             }
             if (i==N){
                 Ucopie[i][0]=U[1][0];
-                Ucopie[i][1]=U[1][1];
+                Ucopie[i][1]=-U[N-1][1];
             }
         }
         transfert(U,Ucopie);
